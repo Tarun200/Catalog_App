@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "DarkSouls 3",
+      "desc": "Action game",
+      "price": 900,
+      "color": "#C29467",
+      "image": "https://th.bing.com/th/id/OIP.s-t-3jDNN17-8fQuj7oHjQHaJO?pid=ImgDet&rs=1"
+    },
+    {
+      "id": 2,
+      "name": "Assasins Creed Unity",
+      "desc": "Adventure game",
+      "price": 1000,
+      "color": "#ADD8E6",
+      "image" : "https://th.bing.com/th/id/R0db91b019b22ddda7f691fe60b4d4ea6?rik=dwY0UANnraw8Eg&riu=http%3a%2f%2freviewanygame.com%2fcontent%2fimages%2fproducts%2fassassins-creed-unity-ps4-usa.jpg&ehk=iB3k317xAXMdR8hZ7wDuX7%2bMFOFrL0WiveQb1E3KjTE%3d&risl=&pid=ImgRaw"
+    },
+    {
+      "id" : 3,
+      "name": "Last of us 2",
+      "desc": "Open World",
+      "price": 1500,
+      "color": "#000000",
+      "image": "https://th.bing.com/th/id/R5439fff5a073b4816810db2b95b75c4a?rik=vykUuQFxrCu0jg&riu=http%3a%2f%2fimages.pushsquare.com%2fgames%2fps4%2flast_of_us_part_ii%2fcover_medium.jpg&ehk=%2fy8XpAiwyalfxPJl5DLCFmE5knGK8XRX%2flZtHwXTr%2b0%3d&risl=&pid=ImgRaw"
+    },
+    {
+      "id": 4,
+      "name": "Far Cry 5",
+      "desc": "First person shooter",
+      "price": "800",
+      "color": "#8B4513",
+      "image": "https://th.bing.com/th/id/OIP.WSJut8TQtPIufk_Nvo433wHaIq?pid=ImgDet&rs=1"
+    },
+    {
+      "id": 5,
+      "name": "Uncharted 4",
+      "desc": "Adventure game",
+      "price": 1200,
+      "color": "#b2ac88",
+      "image": "https://th.bing.com/th/id/OIP.ttzUQejyncVj2LKss9CSTQHaJX?pid=ImgDet&rs=1"
+    }
+
+  ]
+
+}

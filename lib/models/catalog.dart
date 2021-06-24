@@ -2,10 +2,10 @@ class Products
 {
   static List<ProductAttribute> items =[
     ProductAttribute(
-      id: 100,
+      id: "100",
       name: "DarkSouls 3",
       desc: "Action Game",
-      price: 900,
+      price: "900",
       color: "#C29467",
       image: "https://th.bing.com/th/id/OIP.s-t-3jDNN17-8fQuj7oHjQHaJO?pid=ImgDet&rs=1")
   ];
@@ -14,10 +14,10 @@ class Products
 
 class ProductAttribute
 {
-  final int id;
+  final String id;
   final String name;
   final String desc;
-  final num price;
+  final String price;
   final String color;
   final String image;
 
@@ -25,10 +25,10 @@ class ProductAttribute
   factory ProductAttribute.fromMap(Map<String,dynamic> map)
   {
     return ProductAttribute(
-      id: map["id"],
+      id: map["id"].toString(),
       name: map["name"],
       desc: map["desc"],
-      price: map["price"],
+      price: map["price"].toString(),
       color: map["color"],
       image: map["image"],
 

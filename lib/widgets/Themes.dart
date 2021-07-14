@@ -16,5 +16,8 @@ class MyThemes
   static ThemeData darkTheme(BuildContext context)=>ThemeData(
     brightness: Brightness.dark,
   );
+  static Color blackColor = Color(0xff000000);
+  static Color indigoColor = Color(0xff3F0FB7);
+  static Color creamColor = Color(0xfff5f5f5);
 
 }

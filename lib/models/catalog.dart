@@ -1,13 +1,14 @@
 class Products
 {
-  static List<ProductAttribute> items =[
-    ProductAttribute(
-      id: "100",
-      name: "DarkSouls 3",
-      desc: "Action Game",
-      price: "900",
-      color: "#C29467",
-      image: "https://th.bing.com/th/id/OIP.s-t-3jDNN17-8fQuj7oHjQHaJO?pid=ImgDet&rs=1")
+  static List<ProductAttribute> items = [
+  ProductAttribute(
+  id: "1",
+  name: "DarkSouls 3",
+  desc: "Action",
+  price: "900",
+  color: "#C29467",
+  image: "https://www.gamereleasedates.net/images/covers/ps4/cover-ps4-dark-souls-iii.jpg")
+
   ];
 }
 

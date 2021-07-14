@@ -9,7 +9,15 @@ import 'package:cataloug_app/models/catalog.dart';
   @override
   Widget build(BuildContext context) {
     return Card(
+      clipBehavior: Clip.antiAlias,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(12),
+
+      ),
       child: ListTile(
+        onTap: (){
+          print("Product Clicked");
+        },
         leading: Image.network(item.image),
         title: Text(item.name),
         subtitle: Text(item.desc),
